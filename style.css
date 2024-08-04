@@ -1,0 +1,258 @@
+
+body {
+    font-family: sans-serif;
+    color: #6c6969;
+padding: 5%;
+}
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    background: white;
+    box-sizing: border-box;
+}
+
+a {
+    color: #747272;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.active {
+    color: #00b39b; 
+}
+
+.docplanner-header {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px ;
+}
+.introduction-logo {
+    height: 124px;
+    width: 114px;
+    background: url(logo.jpg);
+    background-position: center;
+}
+
+
+.introduction-title {
+    color: #00b39b;
+    font-weight: 100;
+}
+
+.introduction-text {
+    display: flex;
+    max-width: 600pt;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.introduction-paragraph{
+    margin: 10px;
+}
+
+.services {
+    display: flex;
+    margin: 20px;
+}
+
+.service-card-for {
+    font-size: 24px;
+    font-weight: 200;
+}
+.choose-a-country {
+    background-color: #00b39b;
+}
+
+.service-card-title {
+    font-weight: 100;
+
+}
+
+.service-card {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+}
+
+.service-card-patients {
+    background-color: #00b39b;
+}
+
+.service-card-doctors {
+background-color: #3d83df;
+}
+
+.service-card-clinics {
+background-color: #1b2734;
+}
+
+.service-card-select {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: underline;;
+}
+
+.service-card-image {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+}
+
+.partnerships {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.partnerships-title {
+    display: flex;
+}
+
+.partnerships-logo {
+    display: flexbox;
+}
+
+.partnerships-title-text {
+    font-size: 25px;
+    font-weight: 100;
+    color: #00b39b;
+}
+
+.statistics {
+    display: flex;
+    width: 100%;
+    background: #d0faf4;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-around;
+}
+.statistics-title {
+    font-size: 45px;
+    font-weight: 100;
+    color: #00b39b;
+}
+.statistics-numbers-title {
+    font-weight: 100;
+    color: #00b39b;
+}
+.statistics-description {
+    font-size: 20px;
+    font-weight: 100;
+}
+.statistics-text {
+    padding-left: 20px;
+}
+
+.statistics-logo {
+    width: 400;
+    left: 30%;
+}
+
+.statistics-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistics-numbers-text {
+    font-weight: 100;
+    color: #1b2734;
+}
+.first2 {
+    background: #d0faf4;
+    max-width: 240px;
+    margin: 20px;
+}
+
+.leader-number {
+    margin: 10px;
+    background: white;
+    padding: 10%;
+}
+
+.flag-logo{
+ padding-left: 40%;
+}
+;
+.visit-logo{
+    padding-left: 40%;
+}
+.patients-logo{
+    padding-left: 40%;
+}
+.doctors-logo{
+    padding-left: 40%;
+}
+.patients-number {
+    margin: 10px;
+    background: white;
+    padding: 10%;
+}
+
+.visits-number {
+    margin: 10px;
+    background: white;
+    padding: 10%;
+}
+.doctors-number {
+    margin: 10px;
+ background: white;
+    padding: 10%;
+}
+.second2 {
+    background: #d0faf4;
+    max-width: 240px;
+    margin: 20px;
+}
+.teams-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    color: #00b39b;
+}
+
+.teams p {
+    text-align: center;
+    font-size: 18px;
+    color: #6c6969;
+    font-weight: 100;
+}
+
+.first3 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.second3 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.third3 {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.interesting {
+    text-align: center;
+}
+.interesting-title {
+    font-weight: 100;
+}
